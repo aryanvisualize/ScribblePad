@@ -28,38 +28,6 @@ The entire remaining screen is available for scribbling and note-taking.
 📱 **Responsive Layout**
 The toolbar and canvas adapt to different screen sizes.
 
------------------------------------------        
-| Toolbar                               |
-| [Colors] [Pen Width] [Eraser]         |
------------------------------------------
-|                                       |
-|                                       |
-|                                       |
-|          Drawing Canvas               |
-|                                       |
-|                                       |
------------------------------------------
-
----
-
-app
-│
-├── toolbar
-│   │
-│   ├── colors
-│   │   ├── black
-│   │   ├── red
-│   │   ├── blue
-│   │   └── green
-│   │
-│   ├── brush-size
-│   │   └── range input
-│   │
-│   └── eraser
-│       └── button
-│
-└── canvas
-
 
 ## 🛠️ Tech Stack
 
