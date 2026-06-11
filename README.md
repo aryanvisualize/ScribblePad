@@ -122,7 +122,7 @@ Add a screenshot here once the app is ready:
 Add your deployed link here:
 
 ```md
-[Live Demo](https://scribble-pad-bice.vercel.app)
+[https://scribble-pad-bice.vercel.app]
 ```
 
 ---
