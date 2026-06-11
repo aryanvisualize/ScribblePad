@@ -105,15 +105,6 @@ Planned upgrades include:
 * Save notes using Local Storage
 * Multiple pages or notebook sections
 
----
-
-## 📸 Preview
-
-Add a screenshot here once the app is ready:
-
-```md
-![SketchNote Preview](./assets/preview.png)
-```
 
 ---
 
