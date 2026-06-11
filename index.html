@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScribblePad App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="app">
+      <!-- Toolbar -->
+      <div class="toolbar">
+        <!-- Color Section -->
+        <div class="tool-group colors">
+          <div class="color-box black" data-color="black"></div>
+          <div class="color-box red" data-color="red"></div>
+          <div class="color-box blue" data-color="blue"></div>
+          <div class="color-box green" data-color="green"></div>
+        </div>
+
+        <!-- Brush Width Section -->
+        <div class="tool-group brush-size">
+          <label for="size">Pen Width:</label>
+          <input type="range" id="size" min="1" max="80" value="5" />
+        </div>
+
+        <!-- Eraser Section -->
+        <div class="tool-group eraser">
+          <button id="eraser-btn">🧽</button>
+        </div>
+      </div>
+
+      <!-- Drawing Area -->
+       <canvas id="drawing-board"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
